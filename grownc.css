@@ -36,6 +36,10 @@ Header Styles
     border-bottom:thick solid #f68c3f;
 }
 
+.header-bar img {
+     cursor:pointer;
+}
+
 /*
 Footer Styles
 */
