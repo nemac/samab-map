@@ -19,7 +19,7 @@ a {
 Header Styles
 */
 #titleBar {
-    background: #0d9cd4;
+    background: #f683cf;
 }
 
 #titleBar h2 {
@@ -33,7 +33,7 @@ Header Styles
 
 #header {
     background: #fff;
-    border-bottom:thick solid #0d96d4;
+    border-bottom:thick solid #f68c3f;
 }
 
 /*
@@ -71,7 +71,7 @@ Splash Screen Styles
     padding: 1em;
     margin: 0;
     margin-bottom: .5em;
-    background-color: #0d9cd4;
+    background-color: #f68c3f;
     color: #fff;
 }
 
