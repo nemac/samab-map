@@ -66,6 +66,10 @@ Splash Screen Styles
     padding: 0 !important;
 }
 
+.splash-screen-header {
+    padding-top: .5em;
+}
+
 .splash-screen-dialog {
     font-size: .8em;
     text-align: center;
@@ -95,10 +99,9 @@ Splash Screen Styles
     margin: 0;
 }
 
-.splash-screen-dialog .involved-link {
+.splash-screen-branding a {
     color: #fff;
-    text-transform: uppercase;
-    letter-spacing: .08em;
+    text-decoration: underline;
 }
 
 /*
