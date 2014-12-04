@@ -1,4 +1,4 @@
-GroWNC MapViewer
+Land of Sky MapViewer
 =========
 
-Custom html, css & config files for the GroWNC mapviewer found at http://mapviewer.gro-wnc.org/
+Custom html, css & config files for the Land of Sky mapviewer found at TBD
