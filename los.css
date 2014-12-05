@@ -50,7 +50,11 @@ Footer Styles
 
 #footer a {
     color: #fff;
-    border-right: 0;
+    border-right: 1px solid #fff;
+}
+
+#footer a.last {
+    border-right: none;
 }
 
 /*
