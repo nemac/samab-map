@@ -5,7 +5,7 @@
 	<server map_path="http://arcgisserver7.nemac.org/ArcGIS/">
 	</server>
 	<images>
-		<image label="Streets" name="Streets" selected="true" url="http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" />
+		<image label="Streets" name="Streets" url="http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" />
 		<image label="Basic" name="Basic" url="http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer" />
 		<image label="Relief" name="Relief" url="http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" />
 		<image label="Terrain" name="Terrain" url="http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" />
@@ -13,6 +13,7 @@
 		<image label="Topo Map" name="Topo_Map" url="http://services.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" />
 		<image label="USA Topo" name="USA_Topo" url="http://server.arcgisonline.com/ArcGIS/rest/services/USA_Topo_Maps/MapServer" />
 		<image label="None" name="None" url="http://arcgisserver7.nemac.org/ArcGIS/rest/services/US/US_Jurisdictions_filled2/MapServer/" />
+        <image label="Google Streets" selected="true" name="Google Streets"/>
 	</images>
 	<mapviews>
 		<view label="GroWNC" name="GroWNC" selected="true">
@@ -26,9 +27,6 @@
 	</mapviews>
 	<wmsLayers>
 		<wmsGroup gid="G02" label="Built" name="Built">
-			<wmsSubgroup label="Energy">
-				<wmsLayer identify="true" layers="WindPower_Potential_Fair_or_Better" legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/WindPower_Potential_Fair_or_Better.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=WindPower_Potential_Fair_or_Better&amp;VERSION=1.1.1&amp;FORMAT=image/png" lid="BEA" name="WindPower Potential - Fair or Better" srs="EPSG:3785" styles="default" url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/WindPower_Potential_Fair_or_Better.xml" visible="false" />	 
-			</wmsSubgroup>
 			<wmsSubgroup label="Infrastructure">
 				<wmsLayer identify="true" layers="appalachian_trail_parking" legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Appalachian_Trail_Parking.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=appalachian_trail_parking&amp;VERSION=1.1.1&amp;FORMAT=image/png" lid="BIATP" name="Appalachian Trail Parking" srs="EPSG:3785" styles="default" url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Appalachian_Trail_Parking.xml" visible="false" />
 				<wmsLayer identify="true" layers="appalachian_trail_shelters" legend="%(SERVER_URL)s/html/vlayers?sld=%(SERVER_URL)s/msconfig/sld/Appalachian_Trail_Shelters.xml&amp;SERVICE=WMS&amp;REQUEST=GetLegendGraphic&amp;layer=appalachian_trail_shelters&amp;VERSION=1.1.1&amp;FORMAT=image/png" lid="BIATS" name="Appalachian Trail Shelters" srs="EPSG:3785" styles="default" url="%(SERVER_URL)s/html/vlayers?TRANSPARENT=true&amp;sld=%(SERVER_URL)s/msconfig/sld/Appalachian_Trail_Shelters.xml" visible="false" />	 	
