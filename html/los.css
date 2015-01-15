@@ -1,0 +1,144 @@
+/*
+Custom overrides for the GroWNC viewer
+*/
+
+/*
+Global Styles
+*/
+body, td, th {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+/*
+Header Styles
+*/
+#titleBar {
+    background: #f68c3f;
+}
+
+#titleBar h2 {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    font-style: italic;
+    letter-spacing: -1px;
+}
+
+#header {
+    background: #fff;
+    border-bottom:thick solid #f68c3f;
+}
+
+.header-bar img {
+     cursor:pointer;
+}
+
+/*
+Footer Styles
+*/
+#footer {
+    background: #00aeef;
+    color: #fff;
+}
+
+#footer a {
+    color: #fff;
+    border-right: 1px solid #fff;
+}
+
+#footer a.last {
+    border-right: none;
+}
+
+/*
+Splash Screen Styles
+*/
+.splashScreenStyle {
+    opacity: 1 !important;
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.ui-dialog .ui-dialog-content {
+    padding: 0 !important;
+}
+
+.splash-screen-header {
+    padding-top: .5em;
+}
+
+.splash-screen-dialog {
+    font-size: .8em;
+    text-align: center;
+}
+
+.splash-screen-dialog .splash-screen-branding {
+    padding: 1em;
+    margin: 0;
+    margin-bottom: .5em;
+    background-color: #f68c3f;
+    color: #fff;
+}
+
+.splash-screen-dialog h2.block-title {
+    margin-bottom: .5em;
+    color: #fff;
+    font-size: 1.4em;
+    text-transform: uppercase;
+    letter-spacing: normal;
+}
+
+.splash-screen-dialog div {
+    margin-bottom: .5em;
+}
+
+.splash-screen-dialog p {
+    margin: 0;
+}
+
+.splash-screen-branding a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/*
+Phone Portrait
+*/
+@media (max-width: 480px) {
+    #titleBar {
+        font-size: .6em;
+        text-align: center;
+    }
+
+    #findAreaLabel, #mapBase strong {
+        font-size: 9pt;
+    }
+
+    #baseCombo {
+        width: 70px;
+    }
+
+    #findArea {
+        width: 90px;
+    }
+
+    #footer {
+        font-size: 7pt;
+    }
+}
+
+/*
+Phone Landscape
+*/
+@media (min-width: 481px) and (max-width: 650px) {
+    #footer {
+        font-size: 7pt;
+    }
+}

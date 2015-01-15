@@ -1,0 +1,13 @@
+#! /bin/bash
+
+THINGS_TO_COPY="\
+areas.js \
+los.css \
+LOS_Data_Sources.pdf \
+icons \
+index.html \
+libs \
+splashScreen.html \
+"
+
+rsync --delete --exclude **/.git --delete-excluded -av ${THINGS_TO_COPY} html/
