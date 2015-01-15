@@ -1,4 +1,4 @@
-Land of Sky MapViewer
-=========
+los-food-asset-map
+==================
 
-Custom html, css & config files for the Land of Sky mapviewer found at TBD
+Code for the LOS Food Asset Map Viewer.
