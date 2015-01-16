@@ -41,6 +41,7 @@
     <script type="text/javascript">
       $('document').ready(function() {
           seldon.init("http://los-food-asset-map-data.nemac.org/los-food-asset-map_config.xml","EPSG:900913");
+          //seldon.init("http://rain.nemac.org/~derek/los-food-asset-map-data/html/los-food-asset-map_config.xml","EPSG:900913");
       });
     </script>
 
@@ -109,6 +110,9 @@
       <div id="mapBase" class="header-bar input input-select">
         <strong>Base Map:</strong><select id="baseCombo"></select>
       </div>
+      <div id="mapTheme" class="header-bar input input-select">
+        <strong>Project:</strong><select id="themeCombo"></select>
+      </div>      
     </div>
 
     <div id="map"></div>
