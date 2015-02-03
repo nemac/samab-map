@@ -40,7 +40,7 @@
 
     <script type="text/javascript">
       $('document').ready(function() {
-          seldon.init("http://los-food-asset-map-data.nemac.org/los-food-asset-map_config.xml","EPSG:900913");
+          seldon.init("http://los-food-asset-map-data-dev.nemac.org/los-food-asset-map_config.xml","EPSG:900913");
       });
     </script>
 
@@ -109,14 +109,18 @@
       <div id="mapBase" class="header-bar input input-select">
         <strong>Base Map:</strong><select id="baseCombo"></select>
       </div>
+      <div id="mapTheme" class="header-bar input input-select">
+        <strong>Project:</strong><select id="themeCombo"></select>
+      </div> 
     </div>
 
     <div id="map"></div>
 
-    <div id="footer">      
+    <div id="footer">
       <div id="links">
         <a href="http://www.landofsky.org/" class="link" target="_blank">http://www.landofsky.org/</a>
-        <a href="LOS_Data_Sources.pdf" class="link last" target="_blank">Data Sources</a>
+        <a href="LOS_Data_Sources.pdf" class="link" target="_blank">Data Sources</a>
+        <a href="Instructional_Guide_for_Map_Viewers_01-28-15.pdf" class="link last" target="_blank">Help</a>
       </div>
       <div id="latLonTracker" class="hidden-phone-portrait hidden-phone-landscape hidden-tablet-portrait"></div>
     </div>
