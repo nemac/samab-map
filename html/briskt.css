@@ -1,5 +1,5 @@
 /*
-Custom overrides for the GroWNC viewer
+Custom overrides for the Buncombe County Risk Tool viewer
 */
 
 /*
@@ -19,7 +19,7 @@ a {
 Header Styles
 */
 #titleBar {
-    background: #191970;
+    background: #2f2f37;
 }
 
 #titleBar h2 {
@@ -32,7 +32,14 @@ Header Styles
 }
 
 #header {
-    background: #778899;
+    min-height:35px;
+    background: #4e5f7a;
+    color:#FFF;
+}
+
+#header div, .header div {
+    display:inline-block;
+    vertical-align:middle;
 }
 
 .header-bar img {
@@ -41,11 +48,15 @@ Header Styles
     border-radius: .3em
 }
 
+#btn-small-group {
+    padding-top:2px;
+}
+
 /*
 Footer Styles
 */
 #footer {
-    background: #778899;
+    background: #a1bbd0;
     color: #fff;
 }
 
