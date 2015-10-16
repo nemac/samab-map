@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <!-- test change test the order of these does matter -->
-    <title>Land of Sky Map Viewer</title>
+    <title>Buncombe County Mutli-Hazard Risk Tool</title>
     <meta http-equiv="X-UA-Compatible" content="IE=8" >
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
@@ -40,7 +40,7 @@
 
     <script type="text/javascript">
       $('document').ready(function() {
-          seldon.init("http://los-food-asset-map-data-dev.nemac.org/los-food-asset-map_config.xml","EPSG:900913");
+          seldon.init("http://buncombe-risk-tool-data-dev.nemac.org/buncombe_risk_tool_config.xml","EPSG:900913");
       });
     </script>
 
@@ -63,7 +63,7 @@
   <body>
 
     <div id="titleBar">
-      <h2>Land of Sky Map Viewer</h2>
+      <h2>Buncombe County Mutli-Hazard Risk Tool</h2>
     </div>
 
     <div id="header">
@@ -109,18 +109,18 @@
       <div id="mapBase" class="header-bar input input-select">
         <strong>Base Map:</strong><select id="baseCombo"></select>
       </div>
-      <div id="mapTheme" class="header-bar input input-select">
+      <!-- <div id="mapTheme" class="header-bar input input-select">
         <strong>Project:</strong><select id="themeCombo"></select>
-      </div> 
+      </div> --> 
     </div>
 
     <div id="map"></div>
 
     <div id="footer">
       <div id="links">
-        <a href="http://www.landofsky.org/" class="link" target="_blank">http://www.landofsky.org/</a>
+        <!-- <a href="http://www.landofsky.org/" class="link" target="_blank">http://www.landofsky.org/</a>
         <a href="LOS_Data_Sources.pdf" class="link" target="_blank">Data Sources</a>
-        <a href="Instructional_Guide_for_Map_Viewers_01-28-15.pdf" class="link last" target="_blank">Help</a>
+        <a href="Instructional_Guide_for_Map_Viewers_01-28-15.pdf" class="link last" target="_blank">Help</a> -->
       </div>
       <div id="latLonTracker" class="hidden-phone-portrait hidden-phone-landscape hidden-tablet-portrait"></div>
     </div>

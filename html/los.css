@@ -19,11 +19,11 @@ a {
 Header Styles
 */
 #titleBar {
-    background: #f68c3f;
+    background: #191970;
 }
 
 #titleBar h2 {
-    color: #fff;
+    color: #F0F8FF;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.25em;
     font-weight: bold;
@@ -32,8 +32,8 @@ Header Styles
 }
 
 #header {
-    background: #fff;
-    border-bottom:thick solid #f68c3f;
+    background: #F0F8FF;
+    border-bottom:thick solid #778899;
 }
 
 .header-bar img {
@@ -44,7 +44,7 @@ Header Styles
 Footer Styles
 */
 #footer {
-    background: #00aeef;
+    background: #778899;
     color: #fff;
 }
 
