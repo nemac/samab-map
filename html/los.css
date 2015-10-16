@@ -32,12 +32,13 @@ Header Styles
 }
 
 #header {
-    background: #F0F8FF;
-    border-bottom:thick solid #778899;
+    background: #778899;
 }
 
 .header-bar img {
-     cursor:pointer;
+    width: 30px;
+    cursor: pointer;
+    border-radius: .3em
 }
 
 /*
