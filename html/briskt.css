@@ -33,7 +33,7 @@ Header Styles
 
 #header {
     min-height:35px;
-    background: #4e5f7a;
+    background: #546A62;
     color:#FFF;
 }
 
@@ -95,7 +95,7 @@ Splash Screen Styles
     padding: 1em;
     margin: 0;
     margin-bottom: .5em;
-    background-color: #f68c3f;
+    background-color: #546A62;
     color: #fff;
 }
 
